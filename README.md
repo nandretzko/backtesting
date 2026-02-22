@@ -23,7 +23,6 @@ eurusd_backtest/
 
 | Parameter | Default |
 |-----------|---------|
-| ML signal accuracy | 60% |
 | Initial capital | $100,000 |
 | Position size | 10% of capital |
 | Stop-loss | 0.5% of entry price |
@@ -59,7 +58,6 @@ python main.py --seed 123
 
 | Argument | Default | Description |
 |----------|---------|-------------|
-| `--accuracy` | 0.60 | ML model accuracy |
 | `--stop-loss` | 0.005 | Stop-loss % (0.5%) |
 | `--capital` | 100000 | Initial capital (USD) |
 | `--position` | 0.10 | Position size as fraction of capital |
